@@ -234,7 +234,7 @@
   <div class="subtitle">اختر خلية وعبّي الأرقام من 1 إلى 9 بدون تكرار في الصف أو العمود أو المربع!</div>
 
   <div class="toolbar">
-    <div class="stat">الأخطاء<b id="mistakes">0/3</b></div>
+    <div class="stat">الأخطاء<b id="mistakes">0/10</b></div>
     <div class="stat">الوقت<b id="timer">00:00</b></div>
     <div class="stat">أفضل وقت<b id="best">--</b></div>
   </div>
@@ -284,7 +284,7 @@
   const eraseBtn = document.getElementById('erase');
   const notesToggleBtn = document.getElementById('notesToggle');
 
-  const MAX_MISTAKES = 3;
+  const MAX_MISTAKES = 10;
   const CLUES = { easy: 40, medium: 32, hard: 26 };
 
   let solution = [];
